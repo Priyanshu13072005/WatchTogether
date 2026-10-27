@@ -275,7 +275,7 @@ This executes:
 3. Create a new **Web Service** pointing to your repository.
 4. Set the Root Directory to `backend`.
 5. Configure the build and start commands:
-   - **Build Command**: `npm install && npm run build`
+   - **Build Command**: `npm install --include=dev && npm run build`
    - **Start Command**: `npm run start`
 6. Add the following Environment Variables in the hosting dashboard:
    - `PORT`: `10000` (or the port provided by your cloud host)
